@@ -25,6 +25,7 @@ export interface MacroLog {
   deficit?: number;
   bmr?: number;
   reps?: number;
+  pushups?: number;
   weight?: number;
   fatPercentage?: number;
   label: string;
@@ -41,6 +42,8 @@ export interface DailyStats {
   deficit: number;
   bmr: number;
   reps: number;
+  pushups: number;
   guitarFocus: number;
   symptoms: string[];
+  avgWeight: number;
 }
